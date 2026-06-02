@@ -5,6 +5,14 @@ Application Flutter **Binome** avec trois espaces:
 - Propriétaire
 - Administratif
 
+## Architecture
+- `lib/main.dart`
+- `lib/models`
+- `lib/screens`
+- `lib/services`
+- `lib/utils`
+- `lib/widgets`
+
 ## Fonctionnalités principales
 - Interfaces complètes demandées pour chaque rôle
 - Design business premium (cartes, gradients, métriques)
