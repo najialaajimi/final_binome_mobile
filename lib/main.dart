@@ -791,7 +791,7 @@ class ModerationPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        const BusinessHeader('Modérations', 'Accepter ou refuser les annonces frauduleuses.'),
+        const BusinessHeader('Modérations', 'Examiner et traiter les annonces signalées.'),
         _actionTile('Fraude F-201', 'Annonce suspecte', 'Accepter', Icons.verified),
         _actionTile('Fraude F-202', 'Photo non conforme', 'Refuser', Icons.block),
       ],
